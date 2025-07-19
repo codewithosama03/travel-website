@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelia</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--  custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    
+    <!-- nav 1 main -->
+    <div class="nav-1">
+
+     <ul class="nav-1-ul">
+      
+      <li class="nav-1-item" id="mainlogo"> <a href="#" > <img src="logo.svg" alt="logo" width="140px">  </a></li>
+      <li class="nav-1-item" id="home"> <a href="#"> Home</a></li>
+      <li class="nav-1-item"> <a href="#"> About</a></li>
+      <li class="nav-1-item"> <a href="#"> Services</a></li>
+      <li class="nav-1-item"> <a href="#"> Pricing</a></li>
+      <li class="nav-1-item"> <a href="#"> Contact</a></li>
+      <li class="nav-1-item " id="login"> <a href="#"> Log In</a></li>
+      <li class="nav-1-item"  id="signup"> <a href="#"> Sign Up</a></li>
+      <li class="nav-1-item " id="showbtn" onclick="showsidebar()"> <a href="#"> <img src="menu_FILL0_wght400_GRAD0_opsz48.svg" alt=""> </a></li>
+     </ul>
+    </div>
+
+ <!-- sidebar -->
+    <div class="sidebar">
+      
+      <div class="sidebar-heading">
+        <div class="heading"> <img src="logo.svg" alt="logo" width="140px"> </div>
+        <div class="closebtn" id="closebtn" onclick="closesidebar()"> <div> <a href="#"><img src="close_FILL0_wght400_GRAD0_opsz48.svg" alt="closebtn"></a> </div></div>  
+      </div>
+
+      <div class="side-main-content">
+       <ul class="side-ul">
+         <li class="side-li"><a href="#"> Home</a> </li>
+         <li class="side-li"><a href="#"> About</a> </li>
+         <li class="side-li"><a href="#"> Services</a> </li>
+         <li class="side-li"><a href="#"> Prices </a> </li>
+         <li class="side-li"><a href="#"> Contact </a> </li>
+       </ul>
+
+      </div>
+
+      <div class="side-social">
+        
+        <div class="follow-us"> <h3>Follow Us!</h3> </div>
+        
+        <div class="side-social-icons">
+          <span class="side-icons"> <a href="#"><i class="fa-brands fa-facebook fa-2xl my-icon "  ></i></a></span>
+          <span class="side-icons"> <a href="#"><i class="fa-brands fa-instagram fa-2xl my-icon" ></i></a> </span>
+          <span class="side-icons"> <a href="#"><i class="fa-brands fa-twitter fa-2xl my-icon" ></i></a> </span>
+          <span class="side-icons"> <a href="#"><i class="fa-brands fa-youtube fa-2xl my-icon"></i></i></a> </span>
+        </div>
+
+      </div>
+
+    </div>
+
+ </nav>
+ 
+
+ <!-- main article -->
+ <article> 
+
+  <!-- hero section  -->
+<section class="hero-section">
+    
+  <!-- container start -->
+  <div class="hero-container">
+   
+    <!-- heor text -->
+    <div class="hero-text">
+      
+      <div class="hero-explore">
+         <span class="explore"> Explore The World </span>
+         <span id="explore-img"> </span>      
+      </div>
+  
+      <div class="hero-heading">
+        <h1> It’s a Big World <br>
+             Out There, <br>
+             Go Explore! </h1>
+      </div>
+       
+      <div class="hero-para"> <p>We always make our customer happy by providing
+        as many choices as possible</p>
+      </div>
+
+      <div class="plan-watch">
+      
+        <div class="plan"> 
+        <span class="plan-text"> <p>Plan a Trip > </p> </span>
+       </div>
+    
+       <div class="watch-story">
+         
+         <div class="watch-box-1">
+           
+          <span class="box-1">   </span>
+          <span class="box-2"> <img src="play.svg"> </span>
+          
+        </div>
+
+         <div class="watch-box-2"> Watch our Story </div>
+
+       </div>
+        
+        
+      </div>
+  
+      <!-- hero text end -->
+
+    </div>
+
+
+    <div class="hero-img">
+        <div class="hero-banner"> <img src="hero-banner.png" alt="hero" style="height: 100%; width: 100%; object-fit: contain; background-color: hsl(0, 100%, 95%);"> </div>
+    </div>
+
+  </div>
+    <!-- container end -->
+
+ 
+
+</section>
+
+
+
+<!-- what we serve -->
+<section  class="what-serve">
+
+ 
+<div class="serve-container">
+   
+  <!-- what we serve -->
+  <div class="serve-box" id="serve-1">
+     <div class="serve-heading"> WHAT WE SERVE </div>
+     <div class="serve-topic"> Top Values
+      <br>  For You</div>
+     <div class="serve-para"> try a variety of benefits when using our services </div>
+  </div>
+
+  <!-- choices -->
+  <div class="serve-box" id="serve-2">
+    
+    <div class="trio-img" id="img1" > <div class="trio-span-1"></div> </div>
+    <div class="trio-head" id="trio-head-1"  >Lot Of Choices</div>
+    <div class=" trio-para" id="trio-para1"   >Total 460+ destinations that we work with.</div>
+
+  </div>
+
+  <!-- tour guide-->
+  <div class="serve-box" id="serve-3">
+
+    <div class="trio-img" id=""> <div class="trio-span-2"></div></div>
+    <div class="trio-head" id="trio-head-2">Best Tour Guide</div>
+    <div class=" trio-para" id="trio-head-2">With an easy and fast ticket purchase process.</div>
+
+  </div>
+  
+  <!-- booking -->
+  <div class="serve-box" id="serve-4">
+
+    <div class="trio-img" id="img3"> <div class="trio-span-3"></div></div>
+    <div class="trio-head" id="trio-head-3">Easy Booking</div>
+    <div class=" trio-para"> With an easy and fast ticket purchase process.</div>
+
+  </div>
+
+
+</div>
+
+
+</section>
+
+
+<section class="destination">
+ 
+  <!-- cont start -->
+  <div class="dest-container">
+      
+      <div class="top-dest"> Top Destination </div>
+
+      <div class="explore-dest"> Explore Top Destination </div>
+     
+      <div class="dest-contain">
+        
+        <!-- box start -->
+        <div class="dest-box" > 
+        
+          <!-- img -->
+         <div class="dest-bx-1" id="bx-1">
+            
+        </div>
+
+        <div class="dest-bx-head">
+          <h3> Enjoy the Beauty of the del Pincio </h3>
+        </div>
+
+        <div class="dest-bx-info">
+            <p> Rome, Italy</p>  
+        </div>
+
+        <div class="dest-bx-rating">
+           <div class="star-box">
+              
+              <div class="star-1"> 
+               <ion-icon name="star" aria-hidden="true"></ion-icon> 
+              </div>
+              <div class="star-2"> 4.7 </div>
+              
+            </div>
+
+            <div class="review">(11.1k Review)</div>
+            
+        </div>
+ 
+          
+        </div>
+        <!-- box end -->
+        
+         <!-- box start -->
+         <div class="dest-box" > 
+        
+          <!-- img -->
+         <div class="dest-bx-2" id="bx-2">
+            
+        </div>
+
+        <div class="dest-bx-head">
+          <h3> Enjoy the Beauty of the Pakistan Monument</h3>
+        </div>
+
+        <div class="dest-bx-info">
+            <p> Islamabad, Pakistan</p>  
+        </div>
+
+        <div class="dest-bx-rating">
+           <div class="star-box">
+              
+              <div class="star-1"> 
+               <ion-icon name="star" aria-hidden="true"></ion-icon> 
+              </div>
+              <div class="star-2"> 4.6 </div>
+              
+            </div>
+
+            <div class="review">(16.9k Review)</div>
+            
+        </div>
+ 
+          
+        </div>
+        <!-- box end -->
+
+          <!-- box start -->
+          <div class="dest-box" > 
+        
+            <!-- img -->
+           <div class="dest-bx-3" id="bx-1">
+              
+          </div>
+  
+          <div class="dest-bx-head">
+            <h3> Enjoy the Beauty of the Burj Khalifa</h3>
+          </div>
+  
+          <div class="dest-bx-info">
+              <p> Skyscraper in Dubai
+              </p>  
+          </div>
+  
+          <div class="dest-bx-rating">
+             <div class="star-box">
+                
+                <div class="star-1"> 
+                 <ion-icon name="star" aria-hidden="true"></ion-icon> 
+                </div>
+                <div class="star-2"> 4.7 </div>
+                
+              </div>
+  
+              <div class="review">(120k Review)</div>
+              
+          </div>
+   
+            
+          </div>
+          <!-- box end -->
+
+            <!-- box start -->
+        <div class="dest-box" > 
+        
+          <!-- img -->
+         <div class="dest-bx-4" id="bx-1">
+            
+        </div>
+
+        <div class="dest-bx-head">
+          <h3> Enjoy the Beauty of the Milaidhoo </h3>
+        </div>
+
+        <div class="dest-bx-info">
+            <p>Island in the Maldives</p>  
+        </div>
+
+        <div class="dest-bx-rating">
+           <div class="star-box">
+              
+              <div class="star-1"> 
+               <ion-icon name="star" aria-hidden="true"></ion-icon> 
+              </div>
+              <div class="star-2"> 4.7 </div>
+              
+            </div>
+
+            <div class="review">(70 Review)</div>
+            
+        </div>
+ 
+          
+        </div>
+        <!-- box end -->
+
+          <!-- box start -->
+          <div class="dest-box" > 
+        
+            <!-- img -->
+           <div class="dest-bx-5" id="bx-1">
+              
+          </div>
+  
+          <div class="dest-bx-head">
+            <h3>
+              Enjoy the Beauty of the Ko Tao </h3>
+          </div>
+  
+          <div class="dest-bx-info">
+              <p>Island of Thailand</p>  
+          </div>
+  
+          <div class="dest-bx-rating">
+             <div class="star-box">
+                
+                <div class="star-1"> 
+                 <ion-icon name="star" aria-hidden="true"></ion-icon> 
+                </div>
+                <div class="star-2"> 4.5 </div>
+                
+              </div>
+  
+              <div class="review">(985 Review)</div>
+              
+          </div>
+   
+            
+          </div>
+          <!-- box end -->
+
+            <!-- box start -->
+        <div class="dest-box" > 
+        
+          <!-- img -->
+         <div class="dest-bx-6" id="bx-1">
+            
+        </div>
+
+        <div class="dest-bx-head">
+          <h3>Enjoy the Beauty of the Grand Mecidiye Mosque
+          </h3>
+        </div>
+
+        <div class="dest-bx-info">
+            <p>Mosque in Türkiye</p>  
+        </div>
+
+        <div class="dest-bx-rating">
+           <div class="star-box">
+              
+              <div class="star-1"> 
+               <ion-icon name="star" aria-hidden="true"></ion-icon> 
+              </div>
+              <div class="star-2"> 4.7 </div>
+              
+            </div>
+
+            <div class="review">(46.9k Review)</div>
+            
+        </div>
+ 
+          
+        </div>
+        <!-- box end -->
+
+      </div>
+
+      <div class="view-dest"> <a href="#">View All Destinations </a> </div>
+
+  </div>
+  <!-- cont end -->
+</section>
+
+
+<!-- experience start -->
+<section class="experience"> 
+  
+  <div class="exp-container">
+    
+    <div class="exp1">
+
+      <div class="exp1-img-box">
+         <div class="exp1-extra-img">
+           <img src="experience-banner.png" alt="experience" 
+           style="width: 80%; height: 80%; object-fit: cover">
+          </div>
+          <!-- <div class="support">
+            <img src="exp-shape.svg" alt="" style="height: 100%; width: 100%; object-fit: contain;">
+         </div> -->
+      </div>
+
+    </div>
+
+    <div class="exp2">
+       
+      <div class="exp2-container">
+          
+         <div class="exp2-title">Our Experience</div>
+         <div class="exp2-head"> <h3>With Our Experience We Will Serve You</h3></div>
+         <div class="exp2-para"><p>Since we first opened we have 
+          always prioritized the convenience of our users by providing
+           low prices and with a easy process.</p></div>
+     
+           <div class="exp2-box">
+               
+          <div class="exp-box">
+            <h3>20</h3>
+            <p>Years </p>
+            <p>Experience</p>
+          </div>
+         
+          <div class="exp-box">
+            <h3>460+</h3>
+            <p>Destination </p>
+            <p>Collaboration</p>
+          </div>
+
+          <div class="exp-box">
+            <h3>50k+</h3>
+            <p>Happy  </p>
+            <p>Customer</p>
+          </div>
+
+         </div>
+          
+      </div>
+ 
+    </div>
+
+  </div>
+
+
+</section>
+<!-- experience end -->
+
+
+<!-- photo gallery start -->
+ <section class="photo-section">
+
+  <div class="gallery-container">
+    <div class="top-dest"> Top Destination </div>
+    <div class="explore-dest"> Explore Top Destination </div>
+
+     <div class="gallery-box">
+       
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-1.jpg); background-size: cover;"  > </div>
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-2.jpg); background-size: cover;"  > </div>
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-3.jpg); background-size: cover;"  > </div>
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-4.jpg); background-size: cover;"  > </div>
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-5.jpg); background-size: cover;"  > </div>
+      <div class="gall-box" id="gall-img1" style="background-image: url(gallery-6.jpg); background-size: cover;"  > </div>
+     
+
+     </div>
+
+
+  </div>
+
+
+
+ </section>
+<!-- photo gallery end -->
+
+
+<!-- prepare section -->
+<section class="prepare-section">
+
+<div class="prepare-container">
+
+  <div class="pre-head">
+     <h2>Prepare Yourself & Let’s Explore <br> 
+      The Beauty Of The World  <img  class="pre-head-img"  src="title-icon.svg" alt="title"></h2>
+  
+     
+  </div>
+
+  <div class="pre-text"> <p>We have many special offers especially for you.</p> </div>
+  
+  <div class="pre-start"> <a href="#"> Get Started</a></div>
+
+
+</div>
+
+
+
+</section>
+
+ </article>
+<!-- main article end -->
+
+
+<!-- footer -->
+ <footer class="footer">
+  
+  <div class="footer-container">
+   
+    <div class="foot1">
+   
+      <div class="foot-m">
+          <div class="foot-m-logo">
+                    </div>
+
+          <div class="foot-m-p"> 
+            <p>We always make our customer
+            happy by providing as many
+            choices as possible</p>
+          </div>
+
+               
+         <div class="side-social-icons2">
+          <span class="side-icons2"> <a href="#"><i class="fa-brands fa-facebook fa-2xl my-icon "  ></i></a></span>
+          <span class="side-icons2"> <a href="#"><i class="fa-brands fa-instagram fa-2xl my-icon" ></i></a> </span>
+          <span class="side-icons2"> <a href="#"><i class="fa-brands fa-twitter fa-2xl my-icon" ></i></a> </span>
+          <span class="side-icons2"> <a href="#"><i class="fa-brands fa-youtube fa-2xl my-icon"></i></i></a> </span>
+         </div>
+
+
+      </div>
+
+
+      <div class="foot-bx">
+         
+        <ul class="foot-ul">
+           
+         <li class="foot-li-head"> About </li>
+         <li class="foot-li"> <a href="#"> know us</a> </li>
+         <li class="foot-li"> <a href="#"> Features </a> </li>
+         <li class="foot-li"> <a href="#"> News </a> </li>
+         <li class="foot-li"> <a href="#"> Menu </a> </li>
+                               
+        </ul>
+
+
+      </div>
+      <div class="foot-bx">
+         
+        <ul class="foot-ul">
+           
+         <li class="foot-li-head"> Company </li>
+         <li class="foot-li"> <a href="#"> Why Company</a> </li>
+         <li class="foot-li"> <a href="#"> Partnber With Us </a> </li>
+         <li class="foot-li"> <a href="#"> FAQ </a> </li>
+         <li class="foot-li"> <a href="#"> Blog </a> </li>
+                               
+        </ul>
+
+
+      </div>
+      <div class="foot-bx">
+         
+        <ul class="foot-ul">
+           
+         <li class="foot-li-head"> Support </li>
+         <li class="foot-li"> <a href="#"> Account</a> </li>
+         <li class="foot-li"> <a href="#"> Support Center </a> </li>
+         <li class="foot-li"> <a href="#"> Feedback </a> </li>
+         <li class="foot-li"> <a href="#"> Contact us </a> </li>
+                               
+        </ul>
+
+
+      </div>
+
+    </div>
+
+
+    <div class="foot2">
+      <div class="get-in-touch">
+          
+        <ul class="foot-ul2">
+          <li class="foot-li-head"> Get In Touch </li>
+        </ul>
+
+        <div class="foot-m-p2"> 
+          <p>Question or feedback? We’d love to hear from you.</p>
+        </div>
+
+        <div class="email">
+          <input  class="email-input" type="email" placeholder="Email Address"  > 
+           <div class="arrow-right"> <img src="explore right.svg" alt="#" style="background-color: hsl(249, 63%, 54%); border-radius: 50%; color: white; "></div>
+        </div>
+         
+      </div>
+    </div>
+
+
+  </div>
+
+ </footer>
+  
+ <section class="copyright">
+ 
+  <div class="made-by"> 
+    <div class="osamaedit">
+      <p> Copyright 2025,made by </p>
+    <p class="osama">CodeWithOsama03</p>
+    </div>
+   
+    <p class="third-child">Terms And Condition</p>
+    <p>Privacy and Policy</p>
+  
+   </div>
+
+</section>
+
+
+</body>
+
+
+<!-- ion-icon -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- js link -->
+<script src="script.js"></script>
+
+</html>
