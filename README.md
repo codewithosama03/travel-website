@@ -59,26 +59,7 @@ CSS3
 Git & GitHub
 
 ---
-## Screenshots
-
-### Desktop View
-
-![Home Page](desktop1.png)
-
-![Home Page](desktop2.png)
-
-
-### Mobile View
-
-![Mobile View](mobile1.png)
-
-![Mobile View](mobile2.png)
-
-![Mobile View](mobile3.png)
-
---- 
-
-
+ 
 ## Learning Outcome
 
 Building structured landing page layouts
