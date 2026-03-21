@@ -88,9 +88,6 @@ https://codewithosama03.github.io/travel-website/
 
 ![Home Page](desk2.png)
 
-![Home Page](desk3.png)
-
-
 ### Mobile View
 ![Mobile View](mobile1.png)
 
