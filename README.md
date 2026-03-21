@@ -1,4 +1,4 @@
-Travel Website – Responsive Travel Landing Page
+## Travel Website – Responsive Travel Landing Page
 
 ## About
 
@@ -81,6 +81,23 @@ Deploying static websites using GitHub Pages
 https://codewithosama03.github.io/travel-website/
 
 ---
+## Screenshots
+
+### Desktop View
+![Home Page](desk1.png)
+
+![Home Page](desk2.png)
+
+![Home Page](desk3.png)
+
+
+### Mobile View
+![Mobile View](mobile1.png)
+
+![Mobile View](mobile2.png)
+
+
+![Mobile View](mobile3.png)
 
 ## Notes
 
